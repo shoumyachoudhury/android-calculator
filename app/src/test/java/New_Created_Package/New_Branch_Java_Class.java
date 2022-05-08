@@ -3,6 +3,16 @@ package New_Created_Package;
 public class New_Branch_Java_Class {
     int x = 50, y = 60;
     String message = "RRR";
+// <<<<<<< BranchForCreatingConflict
+//     String conflictMessage = "Branch to create conflict";
+
+//     public String getConflictMessage() {
+//         return conflictMessage;
+//     }
+
+//     public void setConflictMessage(String conflictMessage) {
+//         this.conflictMessage = conflictMessage;
+// =======
     String newMessage = "This is new message";
 
     public String getNewMessage() {
@@ -11,6 +21,7 @@ public class New_Branch_Java_Class {
 
     public void setNewMessage(String newMessage) {
         this.newMessage = newMessage;
+// >>>>>>> master
     }
 
     public int getX() {
