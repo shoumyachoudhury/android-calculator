@@ -3,6 +3,15 @@ package New_Created_Package;
 public class New_Branch_Java_Class {
     int x = 50, y = 60;
     String message = "RRR";
+    String newMessage = "This is new message";
+
+    public String getNewMessage() {
+        return newMessage;
+    }
+
+    public void setNewMessage(String newMessage) {
+        this.newMessage = newMessage;
+    }
 
     public int getX() {
         return x;
