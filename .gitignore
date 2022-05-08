@@ -60,3 +60,5 @@ fastlane/readme.md
 
 # MacOS
 .DS_Store
+
+ignore.txt
